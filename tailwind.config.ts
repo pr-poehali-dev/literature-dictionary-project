@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'serif': ['Times New Roman', 'Georgia', 'serif'],
+				'georgia': ['Georgia', 'serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,6 +65,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				'academic': {
+					'dark': '#1F2937',
+					'gray': '#374151',
+					'light': '#F9FAFB',
+					'blue': '#374151',
+					'paper': '#FFFEF7'
 				}
 			},
 			borderRadius: {
